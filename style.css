@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 250px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: blue;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  b{
+    font-weight: bold;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  /* ---------------------------------------------------------------------------------- */
+
+#navBar{
+  position: sticky;
+  top: 0;
+}
+
+
+  
+/* Styles pour les grands écrans */
+@media screen and (min-width: 992px){
+
+}
